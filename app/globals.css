@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { font-family: "Segoe UI", system-ui, sans-serif; }
+.section-title { @apply text-3xl md:text-4xl font-bold tracking-tight text-base-content; }
+.section-sub { @apply mt-2 text-base-content/70 max-w-xl; }
+.page-wrap { @apply max-w-7xl mx-auto px-4 py-12; }
