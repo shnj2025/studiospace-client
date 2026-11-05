@@ -2,8 +2,11 @@
 
 Peer-to-peer creative workspace & production studio sharing platform.
 
-**Live site:** ADD_YOUR_LIVE_URL_HERE
-**Server repo:** ADD_YOUR_SERVER_REPO_URL_HERE
+## Live Links
+- **Live site:** https://studiospace-client-delta.vercel.app
+- **Live API:** https://studiospace-server-oz4y.onrender.com
+- **Client repo:** https://github.com/shnj2025/studiospace-client
+- **Server repo:** https://github.com/shnj2025/studiospace-server
 
 ## Features
 - Home with 3-slide Swiper hero, 6 featured studios from MongoDB, category cards, booking steps and host guarantee
@@ -13,7 +16,8 @@ Peer-to-peer creative workspace & production studio sharing platform.
 - Bookings with Pending / Confirmed / Completed / Cancelled status and cancel option
 - Double-booking prevention on confirmed time slots
 - JWT in HTTPOnly cookies protecting server mutations (401 when unauthorized)
-- Light / dark theme toggle, toast notifications, skeleton loaders, 404 page
+- Google login and email/password login with BetterAuth
+- Light / dark theme toggle, toast notifications, skeleton loaders, custom 404 page
 
 ## Tech Stack
 Next.js 14 (App Router), Tailwind CSS + DaisyUI, BetterAuth (MongoDB adapter) + JWT, Sonner, Swiper, Express.js, MongoDB
@@ -25,5 +29,5 @@ Next.js 14 (App Router), Tailwind CSS + DaisyUI, BetterAuth (MongoDB adapter) + 
 4. `npm run dev` and open http://localhost:3000
 
 ## Examiner Test Credentials
-- Email: ADD_TEST_EMAIL
-- Password: ADD_TEST_PASSWORD
+- Email: abc@gmail.com
+- Password: Abc123
